@@ -53,7 +53,7 @@ section h3{
 .papers ul{margin:-7px 0 13px 8px; padding:0; list-style:none}
 .papers ul li{margin:0 0 3px; padding-left:18px; position:relative}
 .papers ul li::before{content:"\21B3"; position:absolute; left:0; color:#7a7a7a}
-.papers .abstract{color:#444; font-size:13.5px; margin:4px 0 0}
+.papers .abstract{margin:4px 0 0 20px}
 /* Non-link titles (work-in-progress, teaching label) sit at regular weight vs the light body */
 .papers .hd{font-weight:400}
 
