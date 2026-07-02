@@ -1,0 +1,7 @@
+# Papers, CV, and the headshot are served from the separate `files` repo
+# (github.com/victoriamarone/files -> victoriamarone.github.io/files/).
+# The local files/ folder here is only a preview convenience — don't track it.
+files/
+
+# macOS / editor junk
+.DS_Store
