@@ -49,17 +49,21 @@ section h3{
   margin:30px 0 15px;
 }
 .papers p{margin:0 0 13px}
-.papers ul{margin:3px 0 12px 22px; padding:0; list-style:disc}
-.papers ul li{margin:0 0 3px}
+/* Media-coverage line: pulled up close to its paper, marked with a down-right arrow */
+.papers ul{margin:-7px 0 13px 8px; padding:0; list-style:none}
+.papers ul li{margin:0 0 3px; padding-left:18px; position:relative}
+.papers ul li::before{content:"\21B3"; position:absolute; left:0; color:#7a7a7a}
 .papers .abstract{color:#444; font-size:13.5px; margin:4px 0 0}
+/* Non-link titles (work-in-progress, teaching label) sit at regular weight vs the light body */
+.papers .hd{font-weight:400}
 
 p{margin:0 0 13px}
 em{font-style:italic}
 
 /* Links — muted blue (more restrained than the bright Hsiao azure) */
-a{color:#1c5d99; text-decoration:none}
+a{color:#1b6d92; text-decoration:none}
 a:hover{text-decoration:underline}
-a.paper-title{color:#1c5d99; font-weight:400}
+a.paper-title{color:#1b6d92; font-weight:400}
 
 img{max-width:100%}
 
