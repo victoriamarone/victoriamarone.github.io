@@ -64,6 +64,7 @@ em{font-style:italic}
 a{color:#1b6d92; text-decoration:none}
 a:hover{text-decoration:underline}
 a.paper-title{color:#1b6d92; font-weight:400}
+a.coauthor{color:inherit}
 
 img{max-width:100%}
 
