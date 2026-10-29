@@ -36,7 +36,7 @@ header h1{
   flex-shrink:0;
   margin-top:18px;
 }
-.bio-text{max-width:440px}
+.bio-text{max-width:490px}
 .bio-text p{margin:0 0 12px}
 
 /* Section headers — Montserrat, uppercase */
